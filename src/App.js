@@ -1,12 +1,15 @@
 import './App.css';
+import HeaderResponsive fron './Components/HeaderResponsive';
 
 function App() {
   return (
-    <div className="App">
+    <div className= "App">
       <header className="App-header">
-
-        criando a pragina principal
+      
+        Criando a pragina principal
         
+        <HeaderResponsive/>
+
       </header>
     </div>
   );
