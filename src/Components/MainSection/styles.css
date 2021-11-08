@@ -59,7 +59,7 @@
         align-content: center;
     }
     .main-data-container{
-        width: 90px;
+        width: 90%;
         justify-content: center;
         align-content: center;
 
@@ -67,7 +67,7 @@
     .main-data-container h1, .main-data-container p{
         text-align: center;
     }
-    .main-data-container img{
+    .main-container img{
         width: 90%;
     }
 }
