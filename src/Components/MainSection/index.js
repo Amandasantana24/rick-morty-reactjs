@@ -1,7 +1,9 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import './styles.css';
+import api from '.testing.js';
 
 function MainSection(){
+
    return(
        <div className="main-container">
          <div className="main-data-container">
