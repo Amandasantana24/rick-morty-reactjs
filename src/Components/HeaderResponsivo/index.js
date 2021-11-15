@@ -6,7 +6,7 @@ import "./styles.css";
 function HeaderResponsivo (){
     const [active, setActive] = useState(false)
 
-    function openMenu(event) {
+    function openMenu(event){
         event.preventDefault();
         setActive(!active);
         console.log(active);
