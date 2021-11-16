@@ -13,10 +13,10 @@ function Routes(){
           <Switch>
           <Route path="/" exact>
                   <Home/>
-              </Rout>
+              </Route>
                   <Route path="/personagens">
                   <Personagens/>
-              </Router>
+              </Route> 
               <Router path="/personagens/:id">
                   <Personagens/>
               </Router> 
