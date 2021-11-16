@@ -1,6 +1,5 @@
 import React, { useEffect } from 'react';
 import './styles.css';
-import api from '.testing.js';
 
 function MainSection(){
 
