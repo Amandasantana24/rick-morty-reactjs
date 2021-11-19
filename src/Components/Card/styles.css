@@ -1,5 +1,5 @@
 .card{
-    height: 330px;
+    height: 325px;
     border: 1px solid #a0a0a0;
     display: flex;
     justify-content: center;
@@ -7,7 +7,7 @@
     flex-direction: column;
     width: 300px;
 
-    border-radius: 20px;
+    border-radius: 10px;
     overflow: hidden;
 
     color: black;
