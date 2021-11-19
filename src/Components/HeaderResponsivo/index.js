@@ -12,7 +12,7 @@ function HeaderResponsivo (){
         console.log(active);
     }
   return (
-      <header className = "header">
+      <div className = "header">
           <div className="menu-hamburguer" onClick={openMenu}>
               <FontAwesomeIcon icon={faBars} color="#f4f4f4" size="lg"/>
           </div>
@@ -22,7 +22,7 @@ function HeaderResponsivo (){
              <li><a href="/">Episódios</a></li> 
              <li><a href="/sobre">Sobre</a></li> 
           </ul>
-      </header>
+      </div>
   )
 
 }
