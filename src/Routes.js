@@ -17,8 +17,8 @@ function Routes(){
                   <Route path="/personagens">
                   <Personagens/>
               </Route> 
-              <Router path="/personagens/:id">
-                  <Personagens/>
+              <Router path="/personagem/:id">
+                  <Personagem/>
               </Router> 
            </Switch>   
         </Router>  
