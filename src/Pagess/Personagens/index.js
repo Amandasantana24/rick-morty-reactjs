@@ -44,8 +44,8 @@ function Personagens(){
                   ?<h1>Busca não encontrada</h1>
                    : data.results.map((item, key) => {
                     return <Card 
-                       key={item.id} 
-                       id={item.image}
+                       key={key} 
+                       id={item.id}
                        img={item.image} 
                        name={item.name} 
                        />
