@@ -64,7 +64,7 @@
     .main-data-container{
         width: 90%;
         justify-content: center;
-        align-content: center;
+        align-items: center;
 
     }
     .main-data-container h1, .main-data-container p{
@@ -80,7 +80,7 @@
     .main-data-container h1{
         font-size: 40px;
     }
-    .main-data-container p
+    .main-data-container p,
     .main-data-container button{
         font-size: 14px;
     }

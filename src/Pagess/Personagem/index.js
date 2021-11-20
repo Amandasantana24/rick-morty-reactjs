@@ -14,7 +14,7 @@ function Personagem(){
           let response = await api.getPersonagemById(id);
           setData(response);
 
-          let data_criacao = new Date(dateCreated);
+          let data_criacao = new Date(response.created);
           data_criacao = data_criacao.toLocaleDateString("pt-BR");
 
           setDateCreated(data_criacao);
@@ -30,7 +30,7 @@ function Personagem(){
          (
              <div className="full-info-data-container">
                  <img src={data.image} alt={data.name}/>
-                 <div className="into-data-container">
+                 <div className="info-data-container">
                      <h1>Informações Completas</h1>
                      <p>Nome:</p>
                      <span>{data.name}</span>
