@@ -21,7 +21,7 @@ const api = {
         return res;
     },
     getPersonagemById: async (id) => {
-        const res = await basicFetch(`/character/?name=${id}` )
+        const res = await basicFetch(`/character/${id}` )
         return res;
     },
 }
