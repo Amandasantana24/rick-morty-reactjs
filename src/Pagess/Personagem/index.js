@@ -30,7 +30,7 @@ function Personagem(){
          (
              <div className="full-info-data-container">
                  <img src={data.image} alt={data.name}/>
-                 <div className="into-data-container">
+                 <div className="info-data-container">
                      <h1>Informações Completas</h1>
                      <p>Nome:</p>
                      <span>{data.name}</span>

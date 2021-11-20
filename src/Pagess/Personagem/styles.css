@@ -12,7 +12,7 @@
    margin-left: 40px;
 }
 
-.into-data-container p, .into-data-container span{
+.info-data-container p, .info-data-container span{
     margin: 0;
     padding: 0;
     text-align: left;
