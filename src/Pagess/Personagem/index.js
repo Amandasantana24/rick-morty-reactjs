@@ -14,7 +14,7 @@ function Personagem(){
           let response = await api.getPersonagemById(id);
           setData(response);
 
-          let data_criacao = new Date(dateCreated);
+          let data_criacao = new Date(response.created);
           data_criacao = data_criacao.toLocaleDateString("pt-BR");
 
           setDateCreated(data_criacao);
