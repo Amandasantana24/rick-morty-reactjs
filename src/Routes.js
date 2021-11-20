@@ -3,10 +3,9 @@ import { BrowserRouter as Router,
      Switch,
      Route
 } from 'react-router-dom';
-import Home from './Pages/Home';
-import Personagens from './Pages/Personagens';
-import Personagens from '.Pages/Personagens';
-
+import Home from './Pagess/Home';
+import Personagens from './Pagess/Personagens';
+import Personagem from './Pagess/Personagem';
 function Routes(){
     return(
         <Router>
@@ -17,9 +16,9 @@ function Routes(){
                   <Route path="/personagens">
                   <Personagens/>
               </Route> 
-              <Router path="/personagem/:id">
+              <Route path="/personagem/:id">
                   <Personagem/>
-              </Router> 
+              </Route> 
            </Switch>   
         </Router>  
     );

@@ -1,9 +1,9 @@
-import React, { useEffect, useState } from 'react'; 
-import HeaderResponsive from '../../Components/HeaderResponsive'
+import React, { useState } from 'react'; 
+import HeaderResponsivo from '../../Components/HeaderResponsivo'
 import api from '../../Api';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faSearch } from '@fortawesome/free-solid-svg-icons'
-import './styles."css';
+import './styles.css';
 import Card from "../../Components/Card";
 
 function Personagens(){
@@ -29,7 +29,7 @@ function Personagens(){
 
       return(
         <div>
-            <HeaderResponsive/>
+            <HeaderResponsivo/>
             <div className="search-container">
                 <form onSubmit={searchCharacter}>
                     <input onChange={(handleName)}/>

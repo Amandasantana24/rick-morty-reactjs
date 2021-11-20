@@ -65,7 +65,7 @@
         width: 90%;
         justify-content: center;
         align-content: center;
-
+        display: flex;
     }
     .main-data-container h1, .main-data-container p{
         text-align: center;

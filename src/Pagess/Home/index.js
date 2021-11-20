@@ -1,10 +1,10 @@
-import HeaderResponsive from '../../Components/HeaderResponsive'
-import MainSection from '../../Componets/MainSection';
+import HeaderResponsivo from '../../Components/HeaderResponsivo'
+import MainSection from '../../Components/MainSection';
 
 function Home(){
     return(
         <div>
-            <HeaderResponsive/>
+            <HeaderResponsivo/>
             <MainSection/>
         </div>    
     );
