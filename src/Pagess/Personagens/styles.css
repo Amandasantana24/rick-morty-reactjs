@@ -8,6 +8,7 @@
 }
 
 .search-container form{
+    border: 1px solid khaki;
     border-radius: 6px;
     background-color: #fff;
     padding: 0px 3px;
@@ -17,7 +18,7 @@
     outline: none;
     border: 0;
     border-bottom: 1px solid black;
-    margin-right: 4px;
+    margin-right: 3px;
 }
 
 .search-container form button{

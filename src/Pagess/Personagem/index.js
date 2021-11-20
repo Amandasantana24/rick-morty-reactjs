@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import api from "../../Api";
+import HeaderResponsive from '../../Components/HeaderResponsivo';
 import "./styles.css";
 
 function Personagem(){
@@ -19,7 +20,7 @@ function Personagem(){
           setDateCreated(data_criacao);
       }
       load();
-    }, [id, dateCreated])  
+    }, [id])  
      
    return(
      <>

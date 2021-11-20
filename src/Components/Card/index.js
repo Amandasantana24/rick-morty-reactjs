@@ -3,7 +3,7 @@ import "./styles.css"
 import { Link } from "react-router-dom";
 
 function Card(props){
-     const {key, img, name } = props; 
+     const {id, img, name } = props; 
 
     return(
         <Link to={`/personagem/${id}`} className="card">
