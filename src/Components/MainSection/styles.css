@@ -64,8 +64,8 @@
     .main-data-container{
         width: 90%;
         justify-content: center;
-        align-content: center;
-        display: flex;
+        align-items: center;
+
     }
     .main-data-container h1, .main-data-container p{
         text-align: center;
